@@ -15,6 +15,14 @@ export function Details() {
       <Content>
         <ButtonText title="Excluir Nota" />
 
+        <h1>
+          Introdução ao ReactJS
+        </h1>
+        
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates magni minima nemo ex. Recusandae nesciunt non consequatur modi in ea quas consequuntur. Rem, laborum. Possimus alias laudantium optio porro reiciendis.
+        </p>
+
         <Section title="Links úteis">
           <Links>
             <li><a href="#">https:/rocketseat.com.br</a></li>
