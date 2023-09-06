@@ -6,7 +6,7 @@ export function Button({ title, loading=false, ...rest }) {
         disabled={loading}
         {...rest}
     >
-        { loading ? "Carregando..." : title}
+        { loading ? "Carregando..." : title ? title : 'Escreve a função do botão'}
     </Container>
     )
 }
