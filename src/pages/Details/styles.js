@@ -11,3 +11,15 @@ export const Container = styled.body`
     width: 100%;
     height: 100vh;
 `
+
+export const Links = styled.ul`
+    list-style: none;
+
+    > li {
+        margin-top: 12px;
+
+        a {
+            color: ${({ theme }) => theme.COLORS.WHITE };
+        }
+    }
+`
