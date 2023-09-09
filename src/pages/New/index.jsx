@@ -24,12 +24,12 @@ export function New() {
 
                     <Section title="Link úteis">
                         <NoteItem value="https://rockseat.com.br" />
-                        <NoteItem isNew placeholder="Novo Link"/>
+                        <NoteItem isnew placeholder="Novo Link"/>
                     </Section>
                     <Section title="Marcadores">
                         <div className="tags">
                             <NoteItem value="react" />
-                            <NoteItem isNew placeholder="Novo Tag"/>
+                            <NoteItem isnew placeholder="Novo Tag"/>
                         </div>
                     </Section>
 
